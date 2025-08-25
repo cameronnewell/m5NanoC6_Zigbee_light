@@ -7,8 +7,8 @@ Under Boards Manager, Make sure you are supporting the board:
 https://github.com/m5stack
 
 Includes: 
-Zigbee.h from the M5Stack hardware package
-Adafruit_NeoPixel.h fromt he Library Manager
+* Zigbee.h from the M5Stack hardware package
+* Adafruit_NeoPixel.h fromt he Library Manager
 
 * Before Compile/Verify, select the correct board: `Tools -> Board`.
 * Select the End device Zigbee mode: `Tools -> Zigbee mode: Zigbee ED (end device)`
