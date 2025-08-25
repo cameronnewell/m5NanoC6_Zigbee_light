@@ -1,9 +1,16 @@
-OK, code the board in Arduino.
+This is a sketch for A Zigbee comor dimmable light, using a M5Stack Nano 26.
+THIS IS THE DEVICE: https://docs.m5stack.com/en/core/M5NanoC6
 
-THEN in Z2M - add the external converter. 
-THEN: 
-nano configuration.yaml
+Coded using the Arduino IDE
 
-Add this section if it doesn't exist, or add the line if it does.
-external_converters:
-  - external_converters/m5nanoc6_light.js
+Under Boards Manager, Make sure you are supporting the board: 
+https://github.com/m5stack
+
+Includes: 
+Zigbee.h from the M5Stack hardware package
+Adafruit_NeoPixel.h fromt he Library Manager
+
+* Before Compile/Verify, select the correct board: `Tools -> Board`.
+* Select the End device Zigbee mode: `Tools -> Zigbee mode: Zigbee ED (end device)`
+* Select Partition Scheme for Zigbee: `Tools -> Partition Scheme: Zigbee 4MB with spiffs`
+* Select the COM port: `Tools -> Port: xxx` where the `xxx` is the detected COM port.
