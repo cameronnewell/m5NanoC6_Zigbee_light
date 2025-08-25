@@ -3,7 +3,7 @@
 
 /* Zigbee color dimmable light configuration */
 #define ZIGBEE_RGB_LIGHT_ENDPOINT 10
-#define LED_PIN    20
+#define LED_PIN    20  //use 20 for builtin, use 1 or 2 for the grove pins
 #define ENABLE_PIN 19
 #define NUM_LEDS   1
 
