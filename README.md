@@ -1,4 +1,5 @@
-This is a sketch for A Zigbee comor dimmable light, using a M5Stack Nano 26.
+This is a sketch for A Zigbee color dimmable light, using a M5Stack M5NanoC6.
+It runs the onboard multicolor LED, though could be adapted for a different pin.
 THIS IS THE DEVICE: https://docs.m5stack.com/en/core/M5NanoC6
 
 Coded using the Arduino IDE
